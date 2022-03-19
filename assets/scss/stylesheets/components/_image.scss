@@ -1,0 +1,17 @@
+$size: 150px;
+
+.img-container {
+  // border-radius: $size / 2;
+	height: 100%;
+	width: 100%;
+	overflow:hidden;
+	text-align: center;
+	margin:0 auto;
+  z-index: -999;
+  img {
+		height: 100%;
+		min-width:100%;
+		max-width:none;
+		margin:0 -100%;
+	}
+}
