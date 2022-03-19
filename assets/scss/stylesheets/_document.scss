@@ -1,0 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+	// font-family: 'Open Sans', sans-serif;
+  // background-color: $white;
+  background-color: $black;
+}
+
+#__nuxt, #__layout, html, body, .app {
+  height: 100%;
+}
+
+body {
+  .app {
+    display: flex;
+    flex-direction: column;
+  }
+}

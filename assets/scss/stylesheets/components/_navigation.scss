@@ -1,0 +1,52 @@
+/*
+*
+		========================================
+		  X. Navigation Bar
+		========================================
+
+		  Date Created: #{$date-create}
+		  Created By:   #{$name}
+		  Last Updated: --/--/----
+		  Updated By:   #{$name}
+
+*
+*/
+
+.site-navigation {
+  .nav-item {
+    a {
+      padding: 1.25rem 1rem;
+      display: block;
+      color: $black;
+      font-size: 14px;
+      text-decoration: none;
+      position: relative;
+      font-weight: 400;
+      &:hover {
+        color: $red;
+      }
+    }
+    &:hover {
+      &:after {
+        content: "";
+        display: block;
+        background-color: $red;
+        height: 2px;
+        margin-top:-2px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+    }
+    &.active {
+      &:after {
+        content: "";
+        display: block;
+        background-color: $red;
+        height: 2px;
+        margin-top:-2px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+}

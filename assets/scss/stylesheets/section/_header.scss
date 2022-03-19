@@ -1,0 +1,12 @@
+.site-header {
+  // background-color: $white;
+  // border-bottom: 2px solid $cultured;
+  color: $black;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background: rgba($color: $white, $alpha: 1.0);
+  // box-shadow: 0 1px 3px rgba(#080A0D, 0.5);
+  // backdrop-filter: blur(3.0px);
+  // -webkit-backdrop-filter: blur(3.0px);
+}
